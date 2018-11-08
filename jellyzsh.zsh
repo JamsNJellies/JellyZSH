@@ -3,7 +3,7 @@
 # Modify at your own risk
 
 # Config
-export JELLYZSHDIR="$HOME/.config/jellyzsh"
+export JELLYZSHDIR="$HOME/.config/JellyZSH"
 
 ## INIT
 
