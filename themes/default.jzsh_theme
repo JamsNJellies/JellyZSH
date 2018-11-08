@@ -1,4 +1,5 @@
 #!/bin/zsh
 # Default JellyZSH prompt
 PROMPT="%~ %F{red}::%F{white} "
+RPROMPT="%F{red}::%F{white}%@"
 
