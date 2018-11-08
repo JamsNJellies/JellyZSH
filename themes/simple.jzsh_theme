@@ -1,0 +1,5 @@
+#!/bin/zsh
+# A simple, clean JellyZSH prompt
+
+PROMPT="> "
+RPROMPT="%~"

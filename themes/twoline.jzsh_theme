@@ -1,0 +1,6 @@
+#!/bin/zsh
+# Default JellyZSH prompt
+PROMPT="
+%n %F{green}in %F{white}%~ 
+%F{cyan}>> %F{white}"
+
