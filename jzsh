@@ -1,0 +1,26 @@
+#!/bin/zsh
+# JellyZSH control script
+
+function help {
+	cat $JELLYZSHDIR/help
+}
+
+function update {
+	cd $JELLYZSHDIR
+	git pull
+}
+function main {
+	case $1 in
+		help)
+			help
+			;;
+		update)
+			update
+			;;
+		*)
+			help
+			;;
+	esac
+}
+
+main

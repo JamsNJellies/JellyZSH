@@ -1,5 +1,5 @@
 #!/bin/zsh
 # A simple, clean JellyZSH prompt
 
-PROMPT="> "
-RPROMPT="%~"
+export PROMPT="> "
+export RPROMPT="%~"

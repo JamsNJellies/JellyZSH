@@ -17,6 +17,3 @@ if [ -f "$JELLYZSHDIR/themes/$JZSH_THEME.jzsh_theme" ]; then
 else
 	source $JELLYZSHDIR/themes/default.jzsh_theme
 fi
-
-# Add JZSH bin directory to path
-PATH="$PATH:$JELLYZSHDIR/bin"
