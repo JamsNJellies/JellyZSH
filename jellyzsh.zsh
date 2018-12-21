@@ -17,3 +17,8 @@ if [ -f "$JELLYZSHDIR/themes/$JZSH_THEME.jzsh_theme" ]; then
 else
 	source $JELLYZSHDIR/themes/default.jzsh_theme
 fi
+
+command_not_found_handler () {
+	echo "\e[31mError: \[0mCommand not found!"
+	return 127
+}
